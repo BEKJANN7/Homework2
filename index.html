@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя персональная страница</title>
+    <link rel="stylesheet" href="styles.css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="information">
+            <h1>Привет Илья, Я Бекжан</h1>
+            <hr />
+            <h2>Почему я изучаю фронтенд?</h2>
+            <p>Я изучаю фронтенд, потому что мне это просто нравится</p>
+
+            <h2>Где я работаю?</h2>
+            <p>К сожалениею я еще не рабоатаю, я еще учусь в школе</p>
+
+            <h2>Мои увлечения?</h2>
+            <p>Занимаюсь спортом, имею два кандита мастера спорта(КМС) по Карате-До и Самбо</p>
+
+            <h2>Музыка, кино и книги:</h2>
+
+            <div class="entartainment">
+                <li>Музыка:</li>
+                <ul>Меломан</ul>
+                <li>Кино:</li>
+                <ul>Комедия</ul>
+                <li>Книги:</li>
+                <ul>Книги для саморазвития</ul>
+            </div>
+
+            <div class="photo">
+                <h2>Отдых:</h2>
+                <img src="assets/photo_5453949364989974890_y.jpg" alt="фотка с соревнований">
+                <img src="assets/photo_5453949364989974891_y.jpg" alt="фотка с горнолыжки">
+            </div>
+
+            <div class="evaluation">
+                <h2>Оставьте отзыв:</h2>
+                <form>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login"><br><br>
+
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="reason">Как вам моя работа?</label>
+                    <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br><br>
+
+                    <label for="rating">Оцените мою работу:</label>
+                    <select id="rating" name="rating">
+                        <option value="excellent">Отлично</option>
+                        <option value="good">Хорошо</option>
+                        <option value="average">Пойдет</option>
+                        <option value="poor">Плохо</option>
+                    </select><br><br>
+
+                    <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+                    <label for="subscribe">Подпишитесь на меня</label><br><br>
+
+                    <input type="radio" id="feedback" name="feedback" value="positive">
+                    <label for="feedback">Положительный отзыв</label><br>
+
+                    <input type="radio" id="feedback" name="feedback" value="negative">
+                    <label for="feedback">Отрицательный отзыв</label><br><br>
+
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
